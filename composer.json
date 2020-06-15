@@ -1,0 +1,20 @@
+{
+    "name": "neo-p/di",
+    "description": "di",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "6xiaowu9",
+            "email": "736518585@qq.com"
+        }
+    ],
+    "require": {
+        "neo-p/annotation": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeoP\\DI": "src/"
+        }
+    }
+}
